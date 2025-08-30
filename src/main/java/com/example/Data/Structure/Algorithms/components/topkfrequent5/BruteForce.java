@@ -1,11 +1,11 @@
-package com.example.Data.Structure.Algorithms.components;
+package com.example.Data.Structure.Algorithms.components.topkfrequent5;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class TopKFrequent {
+public class BruteForce {
     public int[] topKFrequent(int[] nums, int k) {
         // BRUTE FORCE SOLUTION
         // create a Hashmap named count
